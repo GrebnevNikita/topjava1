@@ -21,4 +21,8 @@ public class UserMealWithExceed {
         this.calories = calories;
         this.exceed = exceed;
     }
+
+    public boolean isExceed() {
+        return exceed;
+    }
 }
